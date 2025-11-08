@@ -1,0 +1,123 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container {
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0px 0px 0px 1px;
+    background-color: rgb(219, 205, 205);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.new__task {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.task_button {
+    width: 90px;
+    height: 25px;
+    gap: 10px;
+    border: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.task_button:hover {
+    opacity: 0.5;
+    background-color: blue;
+    color: white;
+}
+
+
+.delete__btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete__btn:hover {
+    opacity: 0.5;
+    background-color: red;
+    color: white;
+
+}
+
+.complete__btn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.complete__btn:hover {
+    background-color: green;
+    color: white;
+}
+
+.filter-text {
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.filter-text:hover {
+    opacity: 0.5;
+
+}
+
+#filter-completed:hover  {
+background-color: green;
+color: white;
+}
+
+#add__task {
+    height: 25px;
+
+}
+#add__task::placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+}
