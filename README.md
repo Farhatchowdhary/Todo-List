@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Todo List App
 
 A simple Todo List web application built with HTML, CSS, and JavaScript.
@@ -90,3 +91,6 @@ Click All → Shows all tasks.
 Author
 
 Created by [Farhat Chowdhary] – 2025
+=======
+# Todo-List
+>>>>>>> 3e1e69d3a062617eeceea0d7233f48507d9e8a29
